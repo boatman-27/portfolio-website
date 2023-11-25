@@ -6,6 +6,8 @@ import Particle from "../components/Particle";
 import FromOceanToPlate from "../assets/projects/FromOceanToPlate.png";
 import FishaiModel from "../assets/projects/fishaimodel.jpg"
 import FlappyBolBol from "../assets/projects/FlappyBolBol.png"
+import Unit_conv from '../assets/projects/unit-converter.jpg'
+import fweight from '../assets/projects/FishWeight.png'
 
 const Projects = () => {
   return (
@@ -44,6 +46,26 @@ const Projects = () => {
               title="Flappy Bolbol"
               description="Flappy BolBol is my personal adaptation of the classic Flappy Bird game, developed using the versatile Unity game engine. This whimsical and engaging game introduces players to a charming bird named BolBol, who takes on the challenging world of endless obstacles. The game mechanics are simple yet addictive: tap to make BolBol flap its wings and navigate through a maze of pipes."
               ghLink="https://github.com/boatman-27/SpeciesGuesser"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Unit_conv}
+              isBlog={false}
+              title="Unit Converter"
+              description="Introducing the Unit Conversion Program, a versatile Python tool developed for seamless and accurate conversion across various unit categories. Built with a clean and modular code structure, this program leverages the power of the Pandas library for efficient handling of conversion factors. Covering a wide range of units, including area, data transfer rate, energy, frequency, fuel economy, length, mass, plane angle, pressure, speed, temperature, time, and volume, the program provides an intuitive user interface for selecting specific units and entering values. Special attention has been given to temperature conversion, offering dynamic calculations for Celsius, Fahrenheit, and Kelvin units. The program's use of Pandas ensures precise and reliable results, making it a valuable tool for students and professionals alike."
+              ghLink="https://github.com/boatman-27/Unit_Converter"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fweight}
+              isBlog={false}
+              title="Fish Recognition and Weight Estimation"
+              description="The Fish Species Detection and Weight Estimation project is a comprehensive Python-based solution that leverages the power of YOLOv8 for accurate fish species identification and subsequently estimates the weight of the detected fish. This project seamlessly integrates with a Django web application, providing users with an intuitive and user-friendly interface to interact with the system."
+              ghLink="https://github.com/boatman-27/Fish_Recognition_and_weight"
             />
           </Col>
         </Row>

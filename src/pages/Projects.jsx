@@ -8,6 +8,7 @@ import FishaiModel from "../assets/projects/fishaimodel.jpg"
 import FlappyBolBol from "../assets/projects/FlappyBolBol.png"
 import Unit_conv from '../assets/projects/unit-converter.jpg'
 import fweight from '../assets/projects/FishWeight.png'
+import MyTracker from '../assets/projects/MyTracker.png'
 
 const Projects = () => {
   return (
@@ -66,6 +67,15 @@ const Projects = () => {
               title="Fish Recognition and Weight Estimation"
               description="The Fish Species Detection and Weight Estimation project is a comprehensive Python-based solution that leverages the power of YOLOv8 for accurate fish species identification and subsequently estimates the weight of the detected fish. This project seamlessly integrates with a Django web application, providing users with an intuitive and user-friendly interface to interact with the system."
               ghLink="https://github.com/boatman-27/Fish_Recognition_and_weight"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyTracker}
+              isBlog={false}
+              title="My Tracker"
+              description="My Tracker website seamlessly combines the power of Flask as its robust backend and React.js as its dynamic frontend, creating an intuitive and aesthetically pleasing platform for users to effortlessly track their daily activities. With three main pages—Jobs, Todo, and Expenses—the website offers a unique and streamlined experience. On the Jobs page, users can input and manage information about the jobs they've applied for, ensuring a comprehensive overview of their professional pursuits. The Todo page provides a dynamic task management system, allowing users to input tasks, mark them as completed, and efficiently organize their daily responsibilities. The Expenses page serves as a sophisticated expense tracker, enabling users to record both income and expenses seamlessly, with entries elegantly displayed in tables for a clear visual representation of financial activities. Leveraging the robust capabilities of Firebase as the database of choice."
+              ghLink="https://github.com/boatman-27/MyTracker"
             />
           </Col>
         </Row>
